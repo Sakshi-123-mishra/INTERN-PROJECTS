@@ -68,4 +68,4 @@ btn_equals = tk.Button(root, text="=", command=evaluate_calculation, width=11, f
 btn_equals.grid(row=6, column=3, columnspan=2)
 
 root.mainloop()
-S
+
