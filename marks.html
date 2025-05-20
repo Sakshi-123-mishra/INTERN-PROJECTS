@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Enter Marks</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="box">
+      <h2>Enter Your Marks</h2>
+      <div id="subject-marks">
+        <!-- Subject marks input will be dynamically added here -->
+      </div>
+      <div id="total-section">
+        <p>Total Marks: <span id="total-marks">0</span> / <span id="total-out-of">0</span></p>
+        <p>Percentage: <span id="percentage">0</span>%</p>
+      </div>
+      <button class="action-btn" onclick="saveMarks()">Save & Next</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
